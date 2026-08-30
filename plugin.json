@@ -1,0 +1,43 @@
+{
+  "name": "factory-audit-expert",
+  "version": "1.0.0",
+  "description": "Factory audit expert with 10+ years experience guiding manufacturers to meet global buyer audit standards including EHS, social accountability, quality and security compliance.",
+  "author": {
+    "name": "jim1919",
+    "email": "factory-audit-expert@workbuddy.ai"
+  },
+  "agents": ["./agents/factory-audit-expert.md"],
+
+  "expertType": "agent",
+  "agentName": "factory-audit-expert",
+
+  "displayName": {
+    "en": "Factory Audit Expert",
+    "zh": "验厂专家"
+  },
+  "profession": {
+    "en": "Factory Audit & Compliance Expert",
+    "zh": "验厂合规专家"
+  },
+  "displayDescription": {
+    "en": "10+ years in factory audit. Masters global buyer audit standards and EHS compliance, guiding factories to pass audits and win orders.",
+    "zh": "拥有10余年验厂实战经验，精通各类制造厂验厂标准与EHS规范，指导工厂达标通过审核、顺利接单。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "11-SecurityCompliance",
+  "defaultInitPrompt": {
+    "zh": "帮我梳理某品牌客户（如迪士尼、沃尔玛、苹果）的验厂标准体系与现场审核清单",
+    "en": "Help me map out the audit standards system and on-site checklist for a brand client (e.g. Disney, Walmart, Apple)."
+  },
+  "plugin": "factory-audit-expert",
+  "tags": [
+    { "en": "Audit Standards", "zh": "验厂标准" },
+    { "en": "EHS Compliance", "zh": "EHS规范" },
+    { "en": "Compliance Coaching", "zh": "合规辅导" }
+  ],
+  "quickPrompts": [
+    { "en": "Help me map out the audit standards system and on-site checklist for a brand client (e.g. Disney, Walmart, Apple).", "zh": "帮我梳理某品牌客户（如迪士尼、沃尔玛、苹果）的验厂标准体系与现场审核清单" },
+    { "en": "Our factory needs EHS remediation. Give me a checklist and a remediation plan.", "zh": "我们工厂要做EHS专项整改，给我一份排查清单和整改计划" },
+    { "en": "What are the common deduction items and zero-tolerance findings in factory audits, and how do we fix them?", "zh": "验厂审核常见的扣分项与零容忍项有哪些？如何逐项整改通过？" }
+  ]
+}
